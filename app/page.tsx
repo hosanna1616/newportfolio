@@ -1205,6 +1205,15 @@ export default function Portfolio() {
                 github: "https://dental-3qil.vercel.app/",
                 demo: "https://dental-3qil.vercel.app/",
               },
+       {
+                title: "Digital Pet Twin",
+                description:
+                  " build  a Digital Pet Twin, an interactive AI-powered companion that engages users through both chat and voice. Designed to create meaningful interactions, the pet twin plays games with users, fostering a unique and immersive digital experience. Worked alongside an incredible team to bring this innovative concept to life, pushing the boundaries of virtual companionship and AI engagement
+",
+                image: "/d.png",
+                github: "https://pettwin3.vercel.app/",
+                demo: "https://pettwin3.vercel.app/",
+              },
             ].map((project, index) => (
               <motion.div
                 key={project.title}
