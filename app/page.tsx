@@ -699,7 +699,7 @@ export default function Portfolio() {
                     <div className="absolute inset-0 bg-brown-500/10 flex items-center justify-center"></div>
                   </div>
                   <motion.a
-                    href="https://www.canva.com/design/DAGjIi8FJ-k/TZffaTT0TWG4Q-yKQRJEew/view?utm_content=DAGjIi8FJ-k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b7ff8459d"
+                    href="https://www.canva.com/design/DAGjIi8FJ-k/dKeEWhAcmhc8ncJosc5AxA/edit?utm_content=DAGjIi8FJ-k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     className="flex items-center justify-center w-full bg-brown-500 hover:bg-brown-600 text-white py-3 px-4 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
