@@ -699,7 +699,7 @@ export default function Portfolio() {
                     <div className="absolute inset-0 bg-brown-500/10 flex items-center justify-center"></div>
                   </div>
                   <motion.a
-                    href="https://www.canva.com/design/DAGjIi8FJ-k/TZffaTT0TWG4Q-yKQRJEew/view?utm_content=DAGjIi8FJ-k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b7ff8459d"
+                    href="https://www.canva.com/design/DAGjIi8FJ-k/dKeEWhAcmhc8ncJosc5AxA/edit?utm_content=DAGjIi8FJ-k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     className="flex items-center justify-center w-full bg-brown-500 hover:bg-brown-600 text-white py-3 px-4 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -1204,14 +1204,6 @@ export default function Portfolio() {
                 image: "/d.png",
                 github: "https://dental-3qil.vercel.app/",
                 demo: "https://dental-3qil.vercel.app/",
-              },
-              {
-                title: "Digital pet twin",
-                description:
-                  "Digital Pet Twin is an immersive virtual companion designed to delight and adapt. Developed in collaboration with an agile and imaginative team, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions. This project earned top honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships—and the kind of teamwork that turns bold ideas into tangible wins.",
-                image: "/d.png",
-                github: "https://pettwin3.vercel.app/",
-                demo: "https://pettwin3.vercel.app/",
               },
             ].map((project, index) => (
               <motion.div
