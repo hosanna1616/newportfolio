@@ -1205,6 +1205,14 @@ export default function Portfolio() {
                 github: "https://dental-3qil.vercel.app/",
                 demo: "https://dental-3qil.vercel.app/",
               },
+              {
+                title: "Digital pet twin",
+                description:
+                  "Digital Pet Twin is an immersive virtual companion designed to delight and adapt. Developed in collaboration with an agile and imaginative team, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions.This project earned top honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships and the kind of teamwork that turns bold ideas into tangible wins.",
+                image: "/dd.png",
+                github: "https://github.com/hosanna1616/digital-pet-twin",
+                demo: "https://pettwin3.vercel.app/",
+              },
             ].map((project, index) => (
               <motion.div
                 key={project.title}
