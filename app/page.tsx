@@ -313,10 +313,10 @@ export default function Portfolio() {
                 Software Engineering Student
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I'm a third-year Software Engineering student at Bahir Dar
-                University, with a strong foundation in programming languages
-                such as Java, and C++. I have hands-on experience in web
-                development using HTML, React, CSS, JavaScript, Node.js.
+                I'm a Software Engineering student at Bahir Dar University, with
+                a strong foundation in programming languages such as Java, and
+                C++. I have hands-on experience in web development using HTML,
+                Next.js, React, CSS, JavaScript, Node.js.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
                 My projects have enhanced my problem-solving skills and ability
@@ -1186,7 +1186,7 @@ export default function Portfolio() {
                   "Hackathon winning project.I developed an intelligent recruiter agent that revolutionizes the hiring process, making it seamless, efficient, and highly accurate.   me and my group member developed a system that goes beyond resumes, evaluating skills, experience, personality traits, and cultural fit to match the best candidates with the right roles.For companies, we  developed a tool that streamlines hiring, ensuring they find professionals who align perfectly with their vision and work environment. For job seekers, we developed a solution that eliminates the guesswork, offering tailored recommendations based on their expertise and career aspirations.",
                 image: "/Screenshot 2025-04-11 145301.png",
                 github: "https://github.com/hosanna1616",
-                demo: "https://github.com/hosanna1616",
+                demo: "https://ai-recruiter-9y2a.vercel.app/",
               },
 
               {
@@ -1212,6 +1212,14 @@ export default function Portfolio() {
                 image: "/dd.png",
                 github: "https://github.com/hosanna1616/digital-pet-twin",
                 demo: "https://pettwin3.vercel.app/",
+              },
+              {
+                title: "Interior Design website",
+                description:
+                  "I built a visually immersive interior design website using Next.js that showcases creative work through dynamic animations, orb-based interactions, and seamless page transitions. Designed to evoke emotion and spark exploration, the site blends cinematic motion with technical precision, leveraging React, Tailwind CSS, and Framer Motion to deliver a fast, responsive experience across devices. I focused on accessibility, secure routing, and modular architecture to ensure both usability and scalability, crafting a digital gallery that transforms passive viewing into an engaging journey through design..",
+                image: "/intpic.png",
+                github: "https://github.com/hosanna1616/interior",
+                demo: "https://interior-671w.vercel.app/",
               },
             ].map((project, index) => (
               <motion.div
