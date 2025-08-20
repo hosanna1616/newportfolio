@@ -661,6 +661,79 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+      <section id="achievements" className="py-20 bg-white dark:bg-gray-900">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+           
+            <div className="w-20 h-1 bg-brown-500 mx-auto"></div>
+          </motion.div>
+
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+              whileHover={{ y: -5 }}
+            >
+              <div className="md:flex">
+                <div className="md:w-8/5">
+                  <div className="relative h-34 md:h-full">
+                    <Image
+                      src="/gigcertificate.png"
+                      alt="GIG Hackathon Winner Certificate"
+                      width={300}
+                      height={600}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-brown-500/10 flex items-center justify-center"></div>
+                  </div>
+                </div>
+                <div className="p-6 md:w-3/5">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-brown-100 text-brown-700 dark:bg-brown-900/30 dark:text-brown-300 font-bold px-3 py-1 rounded-full text-sm">
+                      1st Place
+                    </div>
+                    <div className="ml-3 text-gray-600 dark:text-gray-300 text-sm">
+                      2025
+                    </div>
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3 text-brown-600 dark:text-brown-400">
+                    GIG Hackathon winner
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                    I'm proud to have won the prestigious 2025 GIG Hackathon,
+                    competing against talented teams from various universities.
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-300 mb-6">
+                    The competition challenged us to develop a technology
+                    solution addressing real-world problems. Our project
+                    combined technical innovation with social impact, earning
+                    recognition from industry judges and establishing me as a
+                    leader in the tech community.
+                  </p>
+                  <motion.a
+                    href="#"
+                    className="flex items-center text-sm font-medium text-brown-600 dark:text-brown-400 hover:text-brown-700 dark:hover:text-brown-300"
+                    whileHover={{ scale: 1.05, x: 5 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <ExternalLink size={16} className="mr-1" />
+                    View Project Details
+                  </motion.a>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* CV Section */}
       <section id="cv" className="py-20 bg-brown-100/50 dark:bg-gray-800">
