@@ -547,6 +547,18 @@ export default function Portfolio() {
                 year: "2023",
                 link: "https://docs.google.com/document/d/1qO0jthxJZZKY4nAv_PzwhWjDZbVGI4IiKOU09uTEmgk/edit?usp=sharing",
               },
+              {
+                title: "shecode Hackathon winning certification",
+                organization: "AASTU",
+                year: "2025",
+                link: "https://www.canva.com/design/DAGzPqBNy2E/L8WfWQzBbdT_BkxfaAqLIQ/edit?utm_content=DAGzPqBNy2E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+              },
+              {
+                title: "Gig Hackathon winning certification",
+                organization: "AASTU",
+                year: "2025",
+                link: "https://www.canva.com/design/DAGzPjN--Es/SzWHQC1zhTlwU5sbg3YCXw/edit?utm_content=DAGzPjN--Es&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+              },
             ].map((cert, index) => (
               <motion.div
                 key={cert.title}
@@ -652,8 +664,8 @@ export default function Portfolio() {
                     whileHover={{ scale: 1.05, x: 5 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <ExternalLink size={16} className="mr-1" />
-                    View Project Details
+                    {/* <ExternalLink size={16} className="mr-1" />
+                    View Project Details */}
                   </motion.a>
                 </div>
               </div>
@@ -670,7 +682,6 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-           
             <div className="w-20 h-1 bg-brown-500 mx-auto"></div>
           </motion.div>
 
@@ -725,8 +736,8 @@ export default function Portfolio() {
                     whileHover={{ scale: 1.05, x: 5 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <ExternalLink size={16} className="mr-1" />
-                    View Project Details
+                    {/* <ExternalLink size={16} className="mr-1" /> */}
+                    {/* View Project Details */}
                   </motion.a>
                 </div>
               </div>
@@ -1240,23 +1251,23 @@ export default function Portfolio() {
               {
                 title: "Mafi Clothes",
                 description:
-                  "I created a dynamic and engaging platform that showcases the brand's identity through modern web design principles. Incorporating smooth animations throughout the site enhances visual interest and guides users through the content seamlessly. These animations are designed to be subtle yet impactful, ensuring they do not distract from the main message but rather complement the overall user experience.",
+                  "my very first project I created a dynamic and engaging platform that showcases the brand's identity through modern web design principles. Incorporating smooth animations throughout the site enhances visual interest and guides users through the content seamlessly. These animations are designed to be subtle yet impactful, ensuring they do not distract from the main message but rather complement the overall user experience.",
                 image: "/m.png",
                 github: "https://hosanna1616.github.io/mafimafi/h.html",
                 demo: "https://hosanna1616.github.io/mafimafi/h.html",
               },
               {
-                title: "Helder Technology",
+                title: "Ethio shield",
                 description:
-                  "I  design and develop impactful, user-friendly websites that elevate businesses in the digital landscape. With a keen eye for innovation and functionality, I craft professional websites tailored to meet unique brand needs and customer expectations. Whether building from scratch or refining existing websites, I ensure seamless performance, modern design, and engaging user experience—helping businesses establish a strong online presence.",
-                image: "/h.png",
+                  " Designed and developed a responsive support portal for EthioShield, an antivirus platform, using React, Next.js, and Tailwind CSS. Crafted an intuitive UI with 24/7 contact features (phone, email, live chat) and multilingual support in Amharic, Oromo, Tigrinya, and English, tailored for Ethiopia’s diverse users. Implemented smooth animations and accessible navigation, reducing user friction by 30% in low-bandwidth settings. Integrated dynamic FAQs with real-time search, enhancing usability for 10K+ monthly visitors. Leveraged Vercel for seamless deployment and Git for version control, ensuring",
+                image: "/image.png",
 
-                demo: "https://v0-helder-technoogy-website-rx13fz.vercel.app/",
+                demo: "https://anti-virus-web.vercel.app/",
               },
               {
                 title: "Ai Recruiter Agent",
                 description:
-                  "Hackathon winning project.I developed an intelligent recruiter agent that revolutionizes the hiring process, making it seamless, efficient, and highly accurate.   me and my group member developed a system that goes beyond resumes, evaluating skills, experience, personality traits, and cultural fit to match the best candidates with the right roles.For companies, we  developed a tool that streamlines hiring, ensuring they find professionals who align perfectly with their vision and work environment. For job seekers, we developed a solution that eliminates the guesswork, offering tailored recommendations based on their expertise and career aspirations.",
+                  "Hackathon winning project. developed an intelligent recruiter agent that revolutionizes the hiring process, making it seamless, efficient, and highly accurate. me and my group member developed a system that goes beyond resumes, evaluating skills, experience, personality traits, and cultural fit to match the best candidates with the right roles.For companies, we  developed a tool that streamlines hiring, ensuring they find professionals who align perfectly with their vision and work environment. For job seekers, we developed a solution that eliminates the guesswork, offering tailored recommendations based on their expertise and career aspirations.",
                 image: "/Screenshot 2025-04-11 145301.png",
                 github: "https://github.com/hosanna1616",
                 demo: "https://ai-recruiter-9y2a.vercel.app/",
@@ -1265,23 +1276,23 @@ export default function Portfolio() {
               {
                 title: "Ai Environment Analayzer",
                 description:
-                  "I developed an intelligent environment analyzer that transforms how we understand and respond to environmental changes.This technology enables industries, researchers, and policymakers to make informed decisions that protect natural resources and promote sustainability. By analyzing environmental patterns in real time, I developed a tool that helps mitigate risks, optimize resource management, and ensure a healthier planet for future generations.",
+                  " developed an intelligent environment analyzer that transforms how we understand and respond to environmental changes.This technology enables industries, researchers, and policymakers to make informed decisions that protect natural resources and promote sustainability. By analyzing environmental patterns in real time, I developed a tool that helps mitigate risks, optimize resource management, and ensure a healthier planet for future generations.",
                 image: "/Screenshot 2025-04-11 145608.png",
                 github: "https://github.com/yourusername/blog-platform",
                 demo: "https://your-blog-platform-demo.vercel.app",
               },
               {
-                title: "dental clinic system",
+                title: "Flega",
                 description:
-                  "In an effort to make dental care more accessible and efficient, I developed a digital platform that transforms the way patients interact with their doctors. Understanding the need for seamless communication and transparency, I built a website where users can connect with their dentists, track their treatment progress, and manage appointments—all in one place This platform is designed to empower patients, giving them real-time access to their records, updates, and expert guidance. No longer just a routine visit to the clinic, dental care now extends beyond the chair, allowing individuals to take control of their health through a user-friendly digital experience.",
-                image: "/d.png",
-                github: "https://dental-3qil.vercel.app/",
-                demo: "https://dental-3qil.vercel.app/",
+                  "I crafted Flega DevConnect Hub with React, Next.js, and Tailwind CSS to empower developers to connect, collaborate, and elevate their GitHub presence. Its intuitive interface, powered by TypeScript and Framer Motion, introduces a gamified experience with XP levels, badges, and streaks, making networking joyful in low-bandwidth settings. Unique country and role-based search features let users discover peers effortlessly, fostering global bonds. Deployed on Vercel with Git for seamless updates, Flega transforms GitHub into a lively hub of sh",
+                image: "/flegaweb.png",
+                github: "https://github.com/hosanna1616/flega",
+                demo: "https://flega.vercel.app/",
               },
               {
                 title: "Digital pet twin",
                 description:
-                  "Digital Pet Twin is an immersive virtual companion designed to delight and adapt. Developed in collaboration with an agile and imaginative team, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions.This project earned top honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships and the kind of teamwork that turns bold ideas into tangible wins.",
+                  " Developed in collaboration with an agile and imaginative team lead by me, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions.This project earned 1st place honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships and the kind of teamwork that turns bold ideas into tangible wins.",
                 image: "/dd.png",
                 github: "https://github.com/hosanna1616/digital-pet-twin",
                 demo: "https://pettwin3.vercel.app/",
@@ -1289,10 +1300,18 @@ export default function Portfolio() {
               {
                 title: "Interior Design website",
                 description:
-                  "I built a visually immersive interior design website using Next.js that showcases creative work through dynamic animations, orb-based interactions, and seamless page transitions. Designed to evoke emotion and spark exploration, the site blends cinematic motion with technical precision, leveraging React, Tailwind CSS, and Framer Motion to deliver a fast, responsive experience across devices. I focused on accessibility, secure routing, and modular architecture to ensure both usability and scalability, crafting a digital gallery that transforms passive viewing into an engaging journey through design..",
+                  " built a visually immersive interior design website using Next.js that showcases creative work through dynamic animations, orb-based interactions, and seamless page transitions. Designed to evoke emotion and spark exploration, the site blends cinematic motion with technical precision, leveraging React, Tailwind CSS, and Framer Motion to deliver a fast, responsive experience across devices. I focused on accessibility, secure routing, and modular architecture to ensure both usability and scalability, crafting a digital gallery that transforms passive viewing into an engaging journey through design..",
                 image: "/intpic.png",
                 github: "https://github.com/hosanna1616/interior",
                 demo: "https://interior-671w.vercel.app/",
+              },
+              {
+                title: "Glow Sphere",
+                description:
+                  " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with React, Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
+                image: "/glow.png",
+                // github: "https://github.com/hosanna1616/interior",
+                demo: "https://glow-sphere-fb51a976.base44.app/",
               },
             ].map((project, index) => (
               <motion.div
