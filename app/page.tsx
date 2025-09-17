@@ -313,18 +313,26 @@ export default function Portfolio() {
                 Software Engineering Student
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I'm a Software Engineering student at Bahir Dar University, with
-                a strong foundation in programming languages such as Java, and
-                C++. I have hands-on experience in web development using HTML,
-                Next.js, React, CSS, JavaScript, Node.js.
+                I’m a Software Engineering student at Bahir Dar University with
+                a strong foundation in programming languages such as Java and
+                C++. My core technical skills include React, Vite, Node.js,
+                Laravel, and Next.js, and I specialize in building scalable,
+                responsive web applications with clean architecture and seamless
+                user experiences. Through hands-on projects, I’ve developed
+                strong problem solving abilities and a collaborative mindset,
+                thriving in team environments and agile workflows. I’m actively
+                seeking internship opportunities where I can contribute to
+                software development and system design, while continuing to grow
+                as a developer and expand my professional skill set through
+                real world experience.
               </p>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              {/* <p className="text-gray-600 dark:text-gray-300 mb-6">
                 My projects have enhanced my problem-solving skills and ability
                 to work collaboratively in teams. I am eager to apply my
                 knowledge through internships and practical experiences in
                 software development and system design, while continuously
                 seeking opportunities for professional growth.
-              </p>
+              </p> */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="font-medium text-brown-600 dark:text-brown-400">
@@ -1241,28 +1249,37 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Jeon Beauty",
-                description:
-                  "I designed Jeon Beauty to showcase a range of high-quality makeup products, emphasizing both aesthetics and functionality. The site features a modern and engaging layout that reflects the brand's commitment to beauty and innovation.",
-                image: "/j.png",
-                github: "https://hosanna1616.github.io/jeon/home.html",
-                demo: "https://jeonn.netlify.app/",
-              },
-              {
-                title: "Mafi Clothes",
-                description:
-                  "my very first project I created a dynamic and engaging platform that showcases the brand's identity through modern web design principles. Incorporating smooth animations throughout the site enhances visual interest and guides users through the content seamlessly. These animations are designed to be subtle yet impactful, ensuring they do not distract from the main message but rather complement the overall user experience.",
-                image: "/m.png",
-                github: "https://hosanna1616.github.io/mafimafi/h.html",
-                demo: "https://hosanna1616.github.io/mafimafi/h.html",
-              },
-              {
                 title: "Ethio shield",
                 description:
                   " Designed and developed a responsive support portal for EthioShield, an antivirus platform, using React, Next.js, and Tailwind CSS. Crafted an intuitive UI with 24/7 contact features (phone, email, live chat) and multilingual support in Amharic, Oromo, Tigrinya, and English, tailored for Ethiopia’s diverse users. Implemented smooth animations and accessible navigation, reducing user friction by 30% in low-bandwidth settings. Integrated dynamic FAQs with real-time search, enhancing usability for 10K+ monthly visitors. Leveraged Vercel for seamless deployment and Git for version control, ensuring",
                 image: "/image.png",
-
+                github: "https://github.com/hosanna1616/anti-virus-web",
                 demo: "https://anti-virus-web.vercel.app/",
+              },
+              {
+                title: "Digital pet twin",
+                description:
+                  " Developed in collaboration with an agile and imaginative team lead by me, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions.This project earned 1st place honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships and the kind of teamwork that turns bold ideas into tangible wins.",
+                image: "/dd.png",
+                github: "https://github.com/hosanna1616/digital-pet-twin",
+                demo: "https://pettwin3.vercel.app/",
+              },
+              {
+                title: "Flega",
+                description:
+                  "I crafted Flega DevConnect Hub with React, Next.js, and Tailwind CSS to empower developers to connect, collaborate, and elevate their GitHub presence. Its intuitive interface, powered by TypeScript and Framer Motion, introduces a gamified experience with XP levels, badges, and streaks, making networking joyful in low-bandwidth settings. Unique country and role-based search features let users discover peers effortlessly, fostering global bonds. Deployed on Vercel with Git for seamless updates, Flega transforms GitHub into a lively hub of sh",
+                image: "/flegaweb.png",
+                github: "https://github.com/hosanna1616/flega",
+                demo: "https://flega.vercel.app/",
+              },
+
+              {
+                title: "Glow Sphere",
+                description:
+                  " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with React, Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
+                image: "/glow.png",
+                // github: "https://github.com/hosanna1616/interior",
+                demo: "https://glow-sphere-fb51a976.base44.app/",
               },
               {
                 title: "Ai Recruiter Agent",
@@ -1274,30 +1291,6 @@ export default function Portfolio() {
               },
 
               {
-                title: "Ai Environment Analayzer",
-                description:
-                  " developed an intelligent environment analyzer that transforms how we understand and respond to environmental changes.This technology enables industries, researchers, and policymakers to make informed decisions that protect natural resources and promote sustainability. By analyzing environmental patterns in real time, I developed a tool that helps mitigate risks, optimize resource management, and ensure a healthier planet for future generations.",
-                image: "/Screenshot 2025-04-11 145608.png",
-                github: "https://github.com/yourusername/blog-platform",
-                demo: "https://your-blog-platform-demo.vercel.app",
-              },
-              {
-                title: "Flega",
-                description:
-                  "I crafted Flega DevConnect Hub with React, Next.js, and Tailwind CSS to empower developers to connect, collaborate, and elevate their GitHub presence. Its intuitive interface, powered by TypeScript and Framer Motion, introduces a gamified experience with XP levels, badges, and streaks, making networking joyful in low-bandwidth settings. Unique country and role-based search features let users discover peers effortlessly, fostering global bonds. Deployed on Vercel with Git for seamless updates, Flega transforms GitHub into a lively hub of sh",
-                image: "/flegaweb.png",
-                github: "https://github.com/hosanna1616/flega",
-                demo: "https://flega.vercel.app/",
-              },
-              {
-                title: "Digital pet twin",
-                description:
-                  " Developed in collaboration with an agile and imaginative team lead by me, it responds dynamically to real-world weather conditions, invites users into playful, interactive games, and builds a sense of connection through nuanced, evolving interactions.This project earned 1st place honors at the GIG Hackathon 2025, recognized for its originality, technical sophistication, and experience-first design. Blending creativity with engineering precision, Digital Pet Twin showcases the future of interactive digital relationships and the kind of teamwork that turns bold ideas into tangible wins.",
-                image: "/dd.png",
-                github: "https://github.com/hosanna1616/digital-pet-twin",
-                demo: "https://pettwin3.vercel.app/",
-              },
-              {
                 title: "Interior Design website",
                 description:
                   " built a visually immersive interior design website using Next.js that showcases creative work through dynamic animations, orb-based interactions, and seamless page transitions. Designed to evoke emotion and spark exploration, the site blends cinematic motion with technical precision, leveraging React, Tailwind CSS, and Framer Motion to deliver a fast, responsive experience across devices. I focused on accessibility, secure routing, and modular architecture to ensure both usability and scalability, crafting a digital gallery that transforms passive viewing into an engaging journey through design..",
@@ -1305,13 +1298,22 @@ export default function Portfolio() {
                 github: "https://github.com/hosanna1616/interior",
                 demo: "https://interior-671w.vercel.app/",
               },
+
               {
-                title: "Glow Sphere",
+                title: "Mafi Clothes",
                 description:
-                  " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with React, Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
-                image: "/glow.png",
-                // github: "https://github.com/hosanna1616/interior",
-                demo: "https://glow-sphere-fb51a976.base44.app/",
+                  "my very first project I created a dynamic and engaging platform that showcases the brand's identity through modern web design principles. Incorporating smooth animations throughout the site enhances visual interest and guides users through the content seamlessly. These animations are designed to be subtle yet impactful, ensuring they do not distract from the main message but rather complement the overall user experience.",
+                image: "/m.png",
+                github: "https://hosanna1616.github.io/mafimafi/h.html",
+                demo: "https://hosanna1616.github.io/mafimafi/h.html",
+              },
+              {
+                title: "Ai Environment Analayzer",
+                description:
+                  " developed an intelligent environment analyzer that transforms how we understand and respond to environmental changes.This technology enables industries, researchers, and policymakers to make informed decisions that protect natural resources and promote sustainability. By analyzing environmental patterns in real time, I developed a tool that helps mitigate risks, optimize resource management, and ensure a healthier planet for future generations.",
+                image: "/Screenshot 2025-04-11 145608.png",
+                github: "https://github.com/yourusername/blog-platform",
+                demo: "https://your-blog-platform-demo.vercel.app",
               },
             ].map((project, index) => (
               <motion.div
