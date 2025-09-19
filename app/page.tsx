@@ -323,8 +323,8 @@ export default function Portfolio() {
                 thriving in team environments and agile workflows. I’m actively
                 seeking internship opportunities where I can contribute to
                 software development and system design, while continuing to grow
-                as a developer and expand my professional skill set through
-                real world experience.
+                as a developer and expand my professional skill set through real
+                world experience.
               </p>
               {/* <p className="text-gray-600 dark:text-gray-300 mb-6">
                 My projects have enhanced my problem-solving skills and ability
@@ -1276,8 +1276,8 @@ export default function Portfolio() {
               {
                 title: "Glow Sphere",
                 description:
-                  " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with React, Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
-                image: "/glow.png",
+                  " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with  Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
+                image: "/g.png",
                 // github: "https://github.com/hosanna1616/interior",
                 demo: "https://glow-sphere-fb51a976.base44.app/",
               },
