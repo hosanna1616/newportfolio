@@ -1279,7 +1279,7 @@ export default function Portfolio() {
                   " Inspired by Ethiopia’s vibrant community spirit, I crafted GlowSphere a dynamic web app built with  Next.js, and Tailwind CSS—to spark creativity and connection. Its responsive UI, powered by TypeScript and Framer Motion, features , enhancing accessibility.I designed GlowSphere to empower users with intuitive, culturally resonant experiences, transforming passive browsing into an immersive journey.Dive into GlowSphere and feel the power of girls’ voices rising together.",
                 image: "/g.png",
                 // github: "https://github.com/hosanna1616/interior",
-                demo: "https://glow-sphere-fb51a976.base44.app/",
+                demo: "https://glow-sphere-hosanna.base44.app",
               },
               {
                 title: "Ai Recruiter Agent",
@@ -1308,12 +1308,20 @@ export default function Portfolio() {
                 demo: "https://hosanna1616.github.io/mafimafi/h.html",
               },
               {
+                title: "jeon Beauty",
+                description:
+                  "Beauty product shoping website created to be a dynamic and engaging platform that showcases the brand's identity through modern web design principles. Incorporating smooth animations throughout the site enhances visual interest and responsivness.",
+                image: "/j.png",
+                github: "https://github.com/hosanna1616/jeon",
+                demo: "https://jeonbeauty.netlify.app/",
+              },
+              {
                 title: "Ai Environment Analayzer",
                 description:
                   " developed an intelligent environment analyzer that transforms how we understand and respond to environmental changes.This technology enables industries, researchers, and policymakers to make informed decisions that protect natural resources and promote sustainability. By analyzing environmental patterns in real time, I developed a tool that helps mitigate risks, optimize resource management, and ensure a healthier planet for future generations.",
                 image: "/Screenshot 2025-04-11 145608.png",
                 github: "https://github.com/yourusername/blog-platform",
-                demo: "https://your-blog-platform-demo.vercel.app",
+                demo: "https://github.com/yourusername/blog-platform",
               },
             ].map((project, index) => (
               <motion.div
