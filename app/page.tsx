@@ -506,6 +506,52 @@ export default function Portfolio() {
                 </motion.div>
               </motion.div>
             </div>
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              <div className="absolute -left-10 mt-1.5 h-6 w-6 rounded-full bg-brown-500 flex items-center justify-center shadow-md">
+                <School size={16} className="text-white" />
+              </div>
+              <motion.div
+                className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 border-l-4 border-brown-500"
+                whileHover={{ x: 5 }}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                  <h3 className="text-xl font-bold text-brown-600 dark:text-brown-400">
+                    A2SV
+                  </h3>
+                  <div className="flex items-center text-gray-600 dark:text-gray-300 mt-2 md:mt-0">
+                    <Calendar size={16} className="mr-1" />
+                    <span>2026 - present</span>
+                  </div>
+                </div>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  Data structure and Algorithm
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  I recently joined Africa to Silicon Valley (A2SV), a highly
+                  competitive program that empowers top African engineering
+                  talent through intensive training in algorithms, software
+                  engineering, and leadership. As part of this experience, I
+                  collaborate with peers on real-world projects where I apply my
+                  expertise in backend architecture, API design, and database
+                  optimization to solve complex technical challenges. The
+                  program emphasizes advanced problem-solving in data
+                  structures, algorithms, and system design, while also
+                  strengthening teamwork and communication skills to deliver
+                  scalable, secure, and production-ready solutions. Beyond the
+                  technical training, A2SV prepares participants for global
+                  internship opportunities by refining both technical depth and
+                  professional impact, making this a transformative step in my
+                  journey as a software engineer.
+                </p>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -791,7 +837,7 @@ export default function Portfolio() {
                     <div className="absolute inset-0 bg-brown-500/10 flex items-center justify-center"></div>
                   </div>
                   <motion.a
-                    href="https://www.canva.com/design/DAGjIi8FJ-k/dKeEWhAcmhc8ncJosc5AxA/edit?utm_content=DAGjIi8FJ-k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    href="https://www.canva.com/design/DAG_CTY-gFM/8QOPb26LZEdrCI_cVndUrw/edit?utm_content=DAG_CTY-gFM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     className="flex items-center justify-center w-full bg-brown-500 hover:bg-brown-600 text-white py-3 px-4 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -1016,12 +1062,12 @@ export default function Portfolio() {
                       {[
                         { name: "HTML5", level: 90 },
                         { name: "CSS3", level: 85 },
-                        { name: "JavaScript", level: 80 },
+                        { name: "JavaScript", level: 90 },
                         { name: "React", level: 85 },
                         { name: "Tailwind CSS", level: 90 },
-                        { name: "Next.js", level: 75 },
-                        { name: "TypeScript", level: 70 },
-                        { name: "Framer Motion", level: 65 },
+                        { name: "Next.js", level: 95 },
+                        { name: "TypeScript", level: 80 },
+                        { name: "Framer Motion", level: 75 },
                       ].map((skill, index) => (
                         <motion.div
                           key={skill.name}
@@ -1058,14 +1104,14 @@ export default function Portfolio() {
                       className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
                     >
                       {[
-                        { name: "Node.js", level: 75 },
-                        { name: "Express", level: 70 },
-                        { name: "MongoDB", level: 65 },
+                        { name: "Node.js", level: 85 },
+                        { name: "Express", level: 90 },
+                        { name: "MongoDB", level: 85 },
                         { name: "SQL", level: 60 },
 
                         { name: "REST API", level: 85 },
-                        { name: "GraphQL", level: 60 },
-                        { name: "Java", level: 70 },
+                        { name: "GraphQL", level: 80 },
+                        { name: "Java", level: 80 },
                       ].map((skill, index) => (
                         <motion.div
                           key={skill.name}
@@ -1195,8 +1241,8 @@ export default function Portfolio() {
                         { name: "Figma", level: 75 },
                         { name: "Photoshop", level: 70 },
                         { name: "Agile/Scrum", level: 75 },
-                        { name: "Docker", level: 60 },
-                        { name: "CI/CD", level: 65 },
+                        { name: "Docker", level: 80 },
+                        { name: "CI/CD", level: 85 },
                       ].map((skill, index) => (
                         <motion.div
                           key={skill.name}
@@ -1249,6 +1295,14 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: "secure system",
+                description:
+                  "  I built this project during my bootcamp at INSA as a way to showcase how product management and cybersecurity can come together in a single platform. It’s a comprehensive suite that integrates solutions like antivirus, VPN, WAF, SIEM, IAM, and biometric identity protection, all designed to strengthen digital ecosystems against modern threats. My focus was on secure backend architecture, role-based access control, and real-time monitoring, while also applying product management principles to make the platform scalable and enterprise-ready. Hosting it on Vercel allowed me to demonstrate modern deployment practices, and overall, this project reflects my ability to design and deliver production-grade applications that solve real-world security challenges.",
+                image: "/insa.png",
+                github: "https://github.com/hosanna1616/product-management-",
+                demo: "https://product-management-ria9.vercel.app/",
+              },
+              {
                 title: "Ethio shield",
                 description:
                   " Designed and developed a responsive support portal for EthioShield, an antivirus platform, using React, Next.js, and Tailwind CSS. Crafted an intuitive UI with 24/7 contact features (phone, email, live chat) and multilingual support in Amharic, Oromo, Tigrinya, and English, tailored for Ethiopia’s diverse users. Implemented smooth animations and accessible navigation, reducing user friction by 30% in low-bandwidth settings. Integrated dynamic FAQs with real-time search, enhancing usability for 10K+ monthly visitors. Leveraged Vercel for seamless deployment and Git for version control, ensuring",
@@ -1287,7 +1341,7 @@ export default function Portfolio() {
                   "Hackathon winning project. developed an intelligent recruiter agent that revolutionizes the hiring process, making it seamless, efficient, and highly accurate. me and my group member developed a system that goes beyond resumes, evaluating skills, experience, personality traits, and cultural fit to match the best candidates with the right roles.For companies, we  developed a tool that streamlines hiring, ensuring they find professionals who align perfectly with their vision and work environment. For job seekers, we developed a solution that eliminates the guesswork, offering tailored recommendations based on their expertise and career aspirations.",
                 image: "/Screenshot 2025-04-11 145301.png",
                 github: "https://github.com/hosanna1616",
-                demo: "https://ai-recruiter-9y2a.vercel.app/",
+                demo: "https://airecruiter-omega.vercel.app/",
               },
 
               {
@@ -1322,6 +1376,14 @@ export default function Portfolio() {
                 image: "/Screenshot 2025-04-11 145608.png",
                 github: "https://github.com/yourusername/blog-platform",
                 demo: "https://github.com/yourusername/blog-platform",
+              },
+              {
+                title: "Food wagen",
+                description:
+                  "Food Wagen is a food ordering and management web app built with Next.js. It lets users browse menus, add items to their cart, and simulate a checkout process, while also providing a clean, responsive interface for smooth navigation. Development with Next.js API routes handling backend logic, and deployment on Vercel for scalability and production readiness. In short, it’s a showcase of building a user‑friendly food delivery platform with real‑time interaction and efficient data handling.",
+                image: "/f.png",
+                github: "https://github.com/yourusername/blog-platform",
+                demo: "https://food-wagen-pi.vercel.app/",
               },
             ].map((project, index) => (
               <motion.div
