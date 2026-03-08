@@ -1047,7 +1047,7 @@ export default function Portfolio() {
                       >
                         {tab.charAt(0).toUpperCase() + tab.slice(1)}
                       </button>
-                    )
+                    ),
                   )}
                 </div>
 
