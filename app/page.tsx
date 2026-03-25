@@ -1305,7 +1305,7 @@ export default function Portfolio() {
               {
                 title: "Ethio shield",
                 description:
-                  " Designed and developed a responsive support portal for EthioShield, an antivirus platform, using React, Next.js, and Tailwind CSS. Crafted an intuitive UI with 24/7 contact features (phone, email, live chat) and multilingual support in Amharic, Oromo, Tigrinya, and English, tailored for Ethiopia’s diverse users. Implemented smooth animations and accessible navigation, reducing user friction by 30% in low-bandwidth settings. Integrated dynamic FAQs with real-time search, enhancing usability for 10K+ monthly visitors. Leveraged Vercel for seamless deployment and Git for version control, ensuring",
+                  " Designed and developed a responsive support portal for EthioShield, an antivirus platform, using React, Next.js, and Tailwind CSS. Crafted an intuitive UI with 24/7 contact features (phone, email, live chat)tailored for Ethiopia’s diverse users. Implemented smooth animations and accessible navigation, reducing user friction by 30% in low-bandwidth settings. Leveraged Vercel for seamless deployment and Git for version control, ensuring",
                 image: "/image.png",
                 github: "https://github.com/hosanna1616/anti-virus-web",
                 demo: "https://anti-virus-web.vercel.app/",
