@@ -1352,6 +1352,14 @@ export default function Portfolio() {
                 github: "https://github.com/hosanna1616/interior",
                 demo: "https://interior-671w.vercel.app/",
               },
+              {
+                title: "ZAY RIDE",
+                description:
+                  "ZayRide is a smart, all-in-one mobile app designed for small traders and merchants .It helps traders easily track sales, expenses, debts, and daily profit in Ethiopian Birr (ብር), while allowing them to request fast and reliable delivery directly through the ZayRide platform with just one tap.",
+                image: "/zay.png",
+                github: "https://github.com/hosanna1616/Zay-Ride",
+                demo: "https://zay-ride.vercel.app/",
+              },
 
               {
                 title: "Mafi Clothes",
@@ -1369,6 +1377,7 @@ export default function Portfolio() {
                 github: "https://github.com/hosanna1616/jeon",
                 demo: "https://jeonbeauty.netlify.app/",
               },
+
               {
                 title: "Ai Environment Analayzer",
                 description:
@@ -1377,6 +1386,7 @@ export default function Portfolio() {
                 github: "https://github.com/yourusername/blog-platform",
                 demo: "https://github.com/yourusername/blog-platform",
               },
+
               {
                 title: "Food wagen",
                 description:
